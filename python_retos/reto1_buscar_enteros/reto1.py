@@ -7,7 +7,7 @@
 
 import re
 
-texto = "En 2023, había 15 estudiantes y 3 profesores."
+texto = "En el salon GO en 2025 hay capacidad de 17 profes y 1223 estudiantes"
 
 # Expresión regular para enteros (positivos y negativos)
 patron = r"-?\\b\\d+\\b"
