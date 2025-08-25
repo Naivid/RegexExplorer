@@ -11,7 +11,7 @@ public class Reto1 {
     public static void main(String[] args) {
         String texto = "En 2023, había 15 estudiantes y 3 profesores.";
         // Expresión regular para enteros (positivos y negativos)
-        String patron = "-?\\b\\d+\\b";
+        String patron = "/d+";
         Pattern pattern = Pattern.compile(patron);
         Matcher matcher = pattern.matcher(texto);
         System.out.print("Enteros encontrados: ");
